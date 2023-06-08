@@ -1,3 +1,5 @@
+import Nav from "@/components/Nav";
+
 export default function DashboardLayout({
   children,
 }: {
@@ -5,7 +7,7 @@ export default function DashboardLayout({
 }) {
   return (
     <main>
-      <h1>Dashboard Layout</h1>
+      <Nav />
       {children}
     </main>
   );
